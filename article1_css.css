@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: 
+        linear-gradient(to right, #7e89a90e 30%, #e60995a0), 
+        url('img8.jpg'); /* Chemin vers votre image */
+    background-size: cover; /* Couvre tout l'écran */
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Minimum hauteur = hauteur de l'écran */
+    font-family: Arial, sans-serif; /* Optionnel : meilleure lisibilité */
+    color: white; /* Texte blanc par défaut */
+}
+
+.container {
+
+    max-width: 1200px; /* Largeur maximale du contenu */
+    margin: auto; /* Centrage horizontal */
+    padding: 60px 20px; /* Espacement autour du contenu */
+    background: rgba(236, 12, 183, 0.034); /* Fond semi-transparent pour améliorer le contraste */
+    border-radius: 10px; /* Coins arrondis */
+}
+
+h3 {
+    font-size: 25px;
+    padding: 20px 0;
+    color: white;
+    text-shadow: 
+        0px 0px 10px #ff00c8,
+        0px 0px 20px #ff00c8,
+        0px 0px 40px #ff00c8,
+        0px 0px 80px #ff00c8;
+}
+
+h3:hover {
+    font-size: 28px;
+    transition: 0.3s; /* Animation fluide */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6; /* Meilleur espacement entre les lignes */
+    color: white; /* Couleur de texte blanche */
+}
